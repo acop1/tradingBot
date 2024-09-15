@@ -23,3 +23,15 @@
   #which uses price moving averages to predict the directionality of the stock. 
   #It also contains the accuracy function which predicts how well the model 
   #performed. 
+
+#trading_bot.py
+  #this file contains the code used to program the bot through lumibot. It also has 
+  #several strategies implemented using stop-loss and gain thesholds. Each model
+  #is implemented in a different function. The output is displayed as a timeline 
+  #and a tearsheet. The only parameters here that need to be changed are the dates, 
+  #ticker name, cash at risk, and strategy name.
+
+#finbert_utils.py
+  #this file contains the machine learning model that turns strings of news into 
+  #sentiment value. It will take in a string(s) input and output the sentiment and
+  #probability of that sentiment being accurate. 
