@@ -14,8 +14,8 @@ from algorithimicTrading import lstm
 
 
 Base_Url = "https://paper-api.alpaca.markets"
-api_key = "PKVJYMVIC4CPQO429DDD"
-api_secret =  "Bgpo9kTdZajCOO2JdcU2k0LhK2oyDncebK2HBjnQ"
+api_key = "Enter API Key"
+api_secret =  "Enter API Secret Key"
 
 ALPACA_CONFIG = {
     "API_KEY": api_key,
